@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Prototype 1
+ * Controls player movement
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

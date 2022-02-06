@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Prototype 1
+ * Ends the game when player falls off the edge
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

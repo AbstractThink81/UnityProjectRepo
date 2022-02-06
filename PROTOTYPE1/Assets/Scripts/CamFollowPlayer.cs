@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Prototype 1
+ * Makes camera follow the player
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Prototype 1
+ * Increments the score when player passes through trigger zones
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,5 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿/*
+ * Ian Connors
+ * Prototype 1
+ * Manages score and end conditions
+ */
+
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;

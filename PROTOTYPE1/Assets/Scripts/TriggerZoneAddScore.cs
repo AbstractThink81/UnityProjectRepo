@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Prototype 1
+ * Adds to score when player passes through triggers
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,8 +1,7 @@
-﻿
-/*
- * (Student Name)
- * (Assignment)
- * (Brief description of the code in the file)
+﻿/*
+ * Ian Connors
+ * Prototype 1
+ * Manages score and end conditions
  */
 
 using System.Collections;
