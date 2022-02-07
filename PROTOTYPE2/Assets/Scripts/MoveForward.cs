@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Prototype 2
+ * Move gameobjects forward at a user-defined speed
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

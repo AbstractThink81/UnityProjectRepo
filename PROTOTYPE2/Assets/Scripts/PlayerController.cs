@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Prototype 2
+ * Controls left and right player movement
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

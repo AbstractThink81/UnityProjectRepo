@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Prototype 2
+ * Instantiates projectiles when the space key is pressed
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

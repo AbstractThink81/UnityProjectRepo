@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Prototype 2
+ * Spawns a random animal at the top of the screen
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

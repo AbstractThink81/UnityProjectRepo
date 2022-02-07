@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Prototype 2
+ * Destroys gameobjects that collide with each other
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
