@@ -24,11 +24,11 @@ public class ScoreManager : MonoBehaviour
     public Text scoreText;
 	private void Start()
 	{
-        gameOverText.SetActive(false);
         gameOver = false;
         score = 0;
         health = maxHealth;
-	}
+        gameOverText.GetComponent<Text>().text = "";
+    }
 	// Update is called once per frame
 	void Update()
     {
@@ -41,8 +41,19 @@ public class ScoreManager : MonoBehaviour
 
         if (health <= 0)
         {
+            gameOverText.GetComponent<Text>().text = "GAME OVER!\npress R to restart!";
             gameOver = true;
-            gameOverText.SetActive(true);
+
+            //Press R to restart if game is over
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+        }
+        if (score >= 5)
+		{
+            gameOverText.GetComponent<Text>().text = "YOU WIN!\npress R to restart!";
+            gameOver = true;
 
             //Press R to restart if game is over
             if (Input.GetKeyDown(KeyCode.R))
