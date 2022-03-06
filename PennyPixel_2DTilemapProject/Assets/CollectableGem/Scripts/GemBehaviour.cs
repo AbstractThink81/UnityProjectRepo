@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Assignment 5A
+ * Makes gems disappear when collected
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Assignment 5A
+ * Makes secret areas fade in or out on trigger
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;

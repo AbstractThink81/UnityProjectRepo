@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Assignment 5A
+ * Manages score display and replay looping
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

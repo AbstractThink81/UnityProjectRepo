@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Assignment 5A
+ * Controls player movement
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
