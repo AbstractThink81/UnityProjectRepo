@@ -35,6 +35,7 @@ public class Enemy : MonoBehaviour, IDamagable
 	protected virtual void Start()
 	{
 		HealthBar.maxValue = health;
+		HealthBar.value = HealthBar.maxValue;
 		float color = (strength / -5) + (6 / 5);
 		sprite.color = new Color(color, color, color);
 	}

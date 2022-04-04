@@ -13,13 +13,13 @@ public class Level1Spawn : AbstractSpawnManager
     {
         while (enemiesLeftToSpawn > 0)
         {
-            if (GameManager.score < 7)
+            if (GameManager.score < 5)
             {
-                yield return new WaitForSeconds(Random.Range(3f, 12f));
+                yield return new WaitForSeconds(Random.Range(2f, 7f));
             }
             else
             {
-                yield return new WaitForSeconds(Random.Range(2f, 10f));
+                yield return new WaitForSeconds(Random.Range(1f, 5f));
             }
             Instantiate(centaurPrefab, spawnPos, Quaternion.identity);
             enemiesLeftToSpawn--;

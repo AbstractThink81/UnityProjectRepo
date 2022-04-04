@@ -15,15 +15,15 @@ public class Level2Spawn : AbstractSpawnManager
         {
             if (GameManager.score < 10)
 			{
-                yield return new WaitForSeconds(Random.Range(2f, 10f));
+                yield return new WaitForSeconds(Random.Range(2f, 7f));
             }
             else if (GameManager.score < 20)
 			{
-                yield return new WaitForSeconds(Random.Range(1.5f, 7f));
+                yield return new WaitForSeconds(Random.Range(1f, 5f));
 			}
 			else
 			{
-                yield return new WaitForSeconds(Random.Range(1f, 4f));
+                yield return new WaitForSeconds(Random.Range(0.5f, 3f));
             }
             spawnPos.y = Random.Range(-4, 3);
             Instantiate(harpiePrefab, spawnPos, Quaternion.identity);

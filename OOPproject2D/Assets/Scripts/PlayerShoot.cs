@@ -14,7 +14,7 @@ public class PlayerShoot : MonoBehaviour
     public bool goingUp = true;
     public GameObject arrowPrefab;
     public int barValue = 0;
-    public int speed = 3;
+    public int speed = 7;
     public Slider EnergyBar;
     // Start is called before the first frame update
     void Start()
@@ -29,33 +29,37 @@ public class PlayerShoot : MonoBehaviour
         {
             barValue = 0;
             shooting = true;
-		}
+        }
         if (Input.GetKeyUp(KeyCode.Space))
-		{
+        {
             shooting = false;
             EnergyBar.value = barValue;
             Instantiate(arrowPrefab, new Vector3(transform.position.x, transform.position.y + 0.1f, -4), transform.rotation);
         }
+    }
+    void FixedUpdate()
+    {
+
         if (shooting)
-		{
+        {
             Debug.Log("shooting!");
             if (goingUp)
-			{
+            {
                 barValue += speed;
-			}
-			else
-			{
+            }
+            else
+            {
                 barValue -= speed;
-			}
+            }
             if (barValue >= 100)
-			{
+            {
                 goingUp = false;
-			}
+            }
             if (barValue <= 0)
-			{
+            {
                 goingUp = true;
-			}
+            }
             EnergyBar.value = barValue;
-		}
+        }
     }
 }

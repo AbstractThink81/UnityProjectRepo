@@ -567,7 +567,7 @@ MonoBehaviour:
   arrowPrefab: {fileID: 3529553285633402990, guid: 747e7d58d5b4822438ee4779dcf2ddfb,
     type: 3}
   barValue: 0
-  speed: 1
+  speed: 4
   EnergyBar: {fileID: 1396577867}
 --- !u!1 &883367940
 GameObject:
