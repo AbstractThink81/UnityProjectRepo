@@ -1,4 +1,9 @@
-﻿using System.Collections.Generic;
+﻿/*
+ * Ian Connors
+ * Assignment 6 (OOP Prototype)
+ * contains a list of type InventoryItem
+ */
+using System.Collections.Generic;
 using UnityEngine;
 
 	public class Inventory : MonoBehaviour

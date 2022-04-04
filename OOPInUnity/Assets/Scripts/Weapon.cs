@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Assignment 6 (OOP Prototype)
+ * weapon that can be held by an enemy
+ */
+using System.Collections;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour

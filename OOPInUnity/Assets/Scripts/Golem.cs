@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Assignment 6 (OOP Prototype)
+ * derives from enemy
+ */
+using System.Collections;
 using UnityEngine;
 
 public class Golem : Enemy

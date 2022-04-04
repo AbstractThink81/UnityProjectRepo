@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Assignment 6 (OOP Prototype)
+ * is capable of being added to a list
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

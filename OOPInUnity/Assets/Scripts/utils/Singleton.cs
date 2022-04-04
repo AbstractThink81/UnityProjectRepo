@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Assignment 6 (OOP Prototype)
+ * makes any class a singleton
+ */
+using System.Collections;
 using UnityEngine;
 
 public class Singleton<T> : MonoBehaviour where T : Singleton<T>

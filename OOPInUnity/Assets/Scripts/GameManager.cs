@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Assignment 6 (OOP Prototype)
+ * loads and unloads scenes asyncronously
+ */
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManager: Singleton<GameManager>

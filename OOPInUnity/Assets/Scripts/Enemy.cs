@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Assignment 6 (OOP Prototype)
+ * implements IDamagable and has a weapon
+ */
+using System.Collections;
 using UnityEngine;
 
 	public abstract class Enemy : MonoBehaviour, IDamagable
