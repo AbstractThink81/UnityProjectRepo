@@ -34,8 +34,8 @@ public class PlayerMove : MonoBehaviour
             float verticalInput;
             verticalInput = Input.GetAxis("Vertical");
             //range for rotation is -50 to 70
-            if ((verticalInput < 0 && transform.localEulerAngles.z < 115)
-                || (verticalInput > 0 && transform.localEulerAngles.z > 65))
+            if ((verticalInput < 0 && transform.localEulerAngles.z < 125)
+                || (verticalInput > 0 && transform.localEulerAngles.z > 55))
             {
                 transform.Rotate(0, 0, -verticalInput * speed * speedMultiplier * Time.deltaTime);
 
