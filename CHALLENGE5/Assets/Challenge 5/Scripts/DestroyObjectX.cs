@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Challenge 5
+ * Destroys particles when they stay on the screen for too long
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

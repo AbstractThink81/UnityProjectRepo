@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * Ian Connors
+ * Challenge 5
+ * Functionality for difficulty buttons on the main menu
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -23,7 +28,7 @@ public class DifficultyButtonX : MonoBehaviour
     void SetDifficulty()
     {
         Debug.Log(button.gameObject.name + " was clicked");
-        gameManagerX.StartGame();
+        gameManagerX.StartGame(difficulty);
     }
 
 
